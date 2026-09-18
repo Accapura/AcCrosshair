@@ -53,8 +53,6 @@ dotnet publish AccapuraCross -c Release -r win-x64 --self-contained false -p:Pub
 - `F6` — показать/скрыть прицел
 - `F7` — следующий профиль
 
-(Пока горячие клавиши фиксированы в коде — `Services/HotkeyService.cs` и `Models/AppSettings.cs`, при желании легко вынести в UI настроек.)
-
 ## Профили
 
 В окне настроек можно добавлять, переименовывать и удалять профили прицела. Каждый профиль хранит:
