@@ -32,8 +32,6 @@ dotnet build
 dotnet run --project AccapuraCross
 ```
 
-Либо откройте `AccapuraCross.sln` в Visual Studio 2022+ и запустите проект (F5).
-
 Для готового exe-файла (один файл AcCrosshair.exe без отдельных .dll):
 
 ```
@@ -47,10 +45,7 @@ dotnet publish AccapuraCross -c Release -r win-x64 --self-contained false -p:Pub
 `AcCrosshair.exe` полностью самодостаточен, его можно переносить на другой ПК одним файлом.
 
 Флаг `--self-contained false` означает, что на компьютере, где будет запускаться exe, должен быть
-установлен .NET 10 Desktop Runtime (https://dotnet.microsoft.com/download/dotnet/10.0) — сам exe
-рантайм в себе не несёт. Если нужен exe, который работает вообще без установленного .NET на целевом
-ПК, замените флаг на `--self-contained true` — тогда рантайм будет упакован внутрь exe, но сам файл
-станет заметно больше (обычно 60–100+ МБ вместо нескольких МБ).
+установлен .NET 10 Desktop Runtime (https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ## Использование
 
