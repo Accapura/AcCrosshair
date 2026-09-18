@@ -4,7 +4,7 @@
 
 ## Скачать
 
-Готовый `AcCrosshair.exe` — на странице [Releases](https://github.com/Accapura/AcCrosshair/releases/latest). Скачал — запустил, установка не нужна: иконка и логотип уже встроены в сам exe-файл, никаких дополнительных файлов рядом не требуется.
+Готовый `AcCrosshair.exe` — на странице [Releases](https://github.com/Accapura/AcCrosshair/releases/latest). Скачал — запустил, установка не нужна
 
 <img width="1344" height="768" alt="Заставка AcCrosshair" src="https://github.com/user-attachments/assets/5a672ed5-a09a-462a-a07b-49146bcc1ede" />
 
