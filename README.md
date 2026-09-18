@@ -37,15 +37,7 @@ dotnet run --project AccapuraCross
 ```
 dotnet publish AccapuraCross -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true
 ```
-
-Файл появится в `AccapuraCross\bin\Release\net10.0-windows\win-x64\publish\AcCrosshair.exe`.
-
-`icon.ico` и `Assets\splash.jpg` зашиты прямо в сборку как EmbeddedResource (см. `.csproj` и
-`Services/EmbeddedAssets.cs`), поэтому отдельно копировать их рядом с exe не нужно — готовый
 `AcCrosshair.exe` полностью самодостаточен, его можно переносить на другой ПК одним файлом.
-
-Флаг `--self-contained false` означает, что на компьютере, где будет запускаться exe, должен быть
-установлен .NET 10 Desktop Runtime (https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ## Использование
 
