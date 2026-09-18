@@ -6,6 +6,10 @@
 
 Готовый `AcCrosshair.exe` — на странице [Releases](https://github.com/Accapura/AcCrosshair/releases/latest). Скачал — запустил, установка не нужна: иконка и логотип уже встроены в сам exe-файл, никаких дополнительных файлов рядом не требуется.
 
+<img width="1344" height="768" alt="Заставка AcCrosshair" src="https://github.com/user-attachments/assets/5a672ed5-a09a-462a-a07b-49146bcc1ede" />
+
+<img width="466" height="673" alt="Окно настроек" src="https://github.com/user-attachments/assets/4b367be1-0660-4176-9c04-5e8ac6c94b5e" />
+
 ## Возможности
 
 - Формы прицела: точка, крест, круг, крест+точка и другие — с настройкой цвета, размера, толщины линий и зазора от центра.
