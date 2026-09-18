@@ -24,19 +24,6 @@
 - Windows 10/11
 - .NET 10 SDK (для сборки): https://dotnet.microsoft.com/download
 
-## Сборка и запуск
-
-```
-cd AccapuraCross
-dotnet build
-dotnet run --project AccapuraCross
-```
-
-Для готового exe-файла (один файл AcCrosshair.exe без отдельных .dll):
-
-```
-dotnet publish AccapuraCross -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true
-```
 `AcCrosshair.exe` полностью самодостаточен, его можно переносить на другой ПК одним файлом.
 
 ## Использование
