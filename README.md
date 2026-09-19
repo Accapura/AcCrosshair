@@ -2,9 +2,9 @@
 
 Прицел (crosshair) поверх экрана для Windows — оверлей поверх любых окон и игр, с гибкой настройкой формы, цвета и размера, профилями и горячими клавишами.
 
-![Скриншот окна настроек AcCrosshair v2](docs/screenshot-v2.png)
-
 ![Заставка AcCrosshair](docs/splash-preview.jpg)
+
+![Скриншот окна настроек AcCrosshair v2](docs/screenshot-v2.png)
 
 ## Возможности
 
