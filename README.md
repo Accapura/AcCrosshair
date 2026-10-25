@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="icon.ico" width="96" height="96" alt="AcCrosshair logo"/>
-
 # AcCrosshair
 
 **Лёгкий оверлей-прицел для любой игры и приложения на Windows**
@@ -14,7 +12,7 @@
 
 <br/>
 
-<img src="docs/screenshot-main.png" alt="AcCrosshair — окно настроек" width="820"/>
+<img src="screenshot-main.png" alt="AcCrosshair — окно настроек" width="820"/>
 
 </div>
 
@@ -43,12 +41,28 @@
 - 🚀 **Автозапуск** и сворачивание в трей с собственным контекстным меню.
 - 🪶 Публикуется как один самодостаточный `.exe` — иконка, шрифты и ресурсы зашиты внутрь сборки.
 
+## Скриншоты
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%"><img src="screenshot-geometry.png" width="280"/><br/><sub>Геометрия</sub></td>
+<td align="center" width="33%"><img src="screenshot-hotkeys.png" width="280"/><br/><sub>Хоткеи</sub></td>
+<td align="center" width="33%"><img src="screenshot-theme.png" width="280"/><br/><sub>Оформление</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="screenshot-advanced.png" width="280"/><br/><sub>Расширенное</sub></td>
+<td align="center" width="33%"><img src="screenshot-system.png" width="280"/><br/><sub>Система</sub></td>
+<td align="center" width="33%"><img src="screenshot-language.png" width="280"/><br/><sub>Язык</sub></td>
+</tr>
+</table>
+</div>
+
 ## Установка и запуск
 
-1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases)
+1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases) 
 2. Запусти `AcCrosshair.exe`. Приложение свернётся в системный трей.
 3. Правый клик по иконке в трее → **Настройки...**, чтобы создать и настроить профиль прицела.
-
 
 
 Нужен [.NET 10 SDK](https://dotnet.microsoft.com/download) для Windows.
