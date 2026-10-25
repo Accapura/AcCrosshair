@@ -8,7 +8,7 @@
 [![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-FF4088?style=flat-square)](https://github.com/Accapura/AcCrosshair)
 [![License](https://img.shields.io/badge/license-Personal%20use-5B8DEF?style=flat-square)](#лицензия)
-[![Version](https://img.shields.io/badge/version-1.0.0-5B8DEF?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-2.0.5-5B8DEF?style=flat-square)](#)
 
 <br/>
 
@@ -41,6 +41,17 @@
 - 🚀 **Автозапуск** и сворачивание в трей с собственным контекстным меню.
 - 🪶 Публикуется как один самодостаточный `.exe` — иконка, шрифты и ресурсы зашиты внутрь сборки.
 
+## Что нового в v2.0.5
+
+- 🎨 Редизайн окна настроек — минималистичный тёмно-серый стиль с синим акцентом вместо прежнего "стеклянного" фиолетово-золотого.
+- 🗂 Разделы **Предпросмотр / Профили / Форма / Цвет / Экран** объединены в одну страницу «Профили».
+- 🖱 Клик по лого открывает репозиторий на GitHub, клик по карточке автора — Discord.
+- 🔢 Номер версии теперь показывается прямо в приложении.
+- 🐛 Исправлено зависание окна настроек при открытии и локализация бокового меню (раньше оставалась на русском при переключении на English).
+- 🖼 Исправлен баг с блоком выбора карты, который оставался виден на всех страницах.
+
+Полная история версий — во вкладке [Releases](https://github.com/Accapura/AcCrosshair/releases).
+
 ## Скриншоты
 
 <div align="center">
@@ -60,10 +71,11 @@
 
 ## Установка и запуск
 
-1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases) 
+1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases)
 2. Запусти `AcCrosshair.exe`. Приложение свернётся в системный трей.
 3. Правый клик по иконке в трее → **Настройки...**, чтобы создать и настроить профиль прицела.
 
+## Сборка из исходников
 
 Нужен [.NET 10 SDK](https://dotnet.microsoft.com/download) для Windows.
 
