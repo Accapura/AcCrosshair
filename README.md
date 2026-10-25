@@ -45,29 +45,13 @@
 
 ## Установка и запуск
 
-1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases) — или собери сам (см. ниже).
+1. Скачай последний релиз (`AcCrosshair.exe`) со страницы [Releases](https://github.com/Accapura/AcCrosshair/releases)
 2. Запусти `AcCrosshair.exe`. Приложение свернётся в системный трей.
 3. Правый клик по иконке в трее → **Настройки...**, чтобы создать и настроить профиль прицела.
 
-## Сборка из исходников
+
 
 Нужен [.NET 10 SDK](https://dotnet.microsoft.com/download) для Windows.
-
-```bash
-git clone https://github.com/Accapura/AcCrosshair.git
-cd AcCrosshair/AccapuraCross
-
-# обычная сборка (Debug)
-dotnet build
-
-# релизная сборка
-dotnet build -c Release
-
-# публикация в один самодостаточный exe
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
-```
-
-Готовый `AcCrosshair.exe` после `publish` появится в `bin/Release/net10.0-windows/win-x64/publish/`.
 
 ## Горячие клавиши по умолчанию
 
