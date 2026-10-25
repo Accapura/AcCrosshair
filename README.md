@@ -8,11 +8,11 @@
 [![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-FF4088?style=flat-square)](https://github.com/Accapura/AcCrosshair)
 [![License](https://img.shields.io/badge/license-Personal%20use-5B8DEF?style=flat-square)](#лицензия)
-[![Version](https://img.shields.io/badge/version-2.0.5-5B8DEF?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-2.0.6-5B8DEF?style=flat-square)](#)
 
 <br/>
 
-<img src="screenshot-main.png" alt="AcCrosshair — окно настроек" width="820"/>
+<img src="docs/screenshot-main.png" alt="AcCrosshair — окно настроек" width="820"/>
 
 </div>
 
@@ -29,7 +29,7 @@
 
 ## Возможности
 
-- 🎯 **8 форм прицела** — точка, крест, круг, X, круг с точкой, квадрат, галочка (^), а также линии на весь экран для выравнивания.
+- 🎯 **9 форм прицела** — точка, крест, круг, X, круг с точкой, квадрат, галочка (^), стрелка вверх, а также линии на весь экран для выравнивания.
 - 🗂 **Профили** — неограниченное количество сохранённых прицелов, быстрое переключение, экспорт/импорт в файл.
 - 🎨 **Тонкая настройка** — цвет (RGB + HEX), размер, толщина, зазор от центра, точка в центре, обводка, прозрачность, поворот, размытие (blur).
 - 💥 **Bloom и T-образная форма** — зазор прицела увеличивается на время зажатой ЛКМ ("стрельба"); верхний луч креста можно убирать всегда/никогда/только во время стрельбы — как в шутерах.
@@ -41,14 +41,23 @@
 - 🚀 **Автозапуск** и сворачивание в трей с собственным контекстным меню.
 - 🪶 Публикуется как один самодостаточный `.exe` — иконка, шрифты и ресурсы зашиты внутрь сборки.
 
-## Что нового в v2.0.5
+## Что нового в v2.0.6
+
+- 🏹 Новая форма прицела — **стрелка вверх** (залитый треугольник-наконечник, в отличие от галочки это настоящая заливка, а не линии).
+- 🔄 Хоткей **"предыдущий профиль"** — теперь можно переключаться не только вперёд.
+- 💾 Экспорт/импорт **всех** настроек разом (профили, хоткеи, оформление, привязки к играм) — отдельно от экспорта только профилей.
+- ♻️ Сброс всех настроек к значениям по умолчанию одной кнопкой (с подтверждением).
+- 🎨 Настраиваемый **цвет обводки** прицела (раньше обводка всегда была чёрной).
+- 🔔 Проверка обновлений прямо в приложении — сверяется с последним релизом на GitHub.
+- 🐛 Исправлен баг с неверной формой в профиле "Точка".
+
+### Что было в v2.0.5
 
 - 🎨 Редизайн окна настроек — минималистичный тёмно-серый стиль с синим акцентом вместо прежнего "стеклянного" фиолетово-золотого.
 - 🗂 Разделы **Предпросмотр / Профили / Форма / Цвет / Экран** объединены в одну страницу «Профили».
 - 🖱 Клик по лого открывает репозиторий на GitHub, клик по карточке автора — Discord.
 - 🔢 Номер версии теперь показывается прямо в приложении.
-- 🐛 Исправлено зависание окна настроек при открытии и локализация бокового меню (раньше оставалась на русском при переключении на English).
-- 🖼 Исправлен баг с блоком выбора карты, который оставался виден на всех страницах.
+- 🐛 Исправлено зависание окна настроек при открытии и локализация бокового меню.
 
 Полная история версий — во вкладке [Releases](https://github.com/Accapura/AcCrosshair/releases).
 
@@ -57,14 +66,14 @@
 <div align="center">
 <table>
 <tr>
-<td align="center" width="33%"><img src="screenshot-geometry.png" width="280"/><br/><sub>Геометрия</sub></td>
-<td align="center" width="33%"><img src="screenshot-hotkeys.png" width="280"/><br/><sub>Хоткеи</sub></td>
-<td align="center" width="33%"><img src="screenshot-theme.png" width="280"/><br/><sub>Оформление</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-geometry.png" width="280"/><br/><sub>Геометрия</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-hotkeys.png" width="280"/><br/><sub>Хоткеи</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-theme.png" width="280"/><br/><sub>Оформление</sub></td>
 </tr>
 <tr>
-<td align="center" width="33%"><img src="screenshot-advanced.png" width="280"/><br/><sub>Расширенное</sub></td>
-<td align="center" width="33%"><img src="screenshot-system.png" width="280"/><br/><sub>Система</sub></td>
-<td align="center" width="33%"><img src="screenshot-language.png" width="280"/><br/><sub>Язык</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-advanced.png" width="280"/><br/><sub>Расширенное</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-system.png" width="280"/><br/><sub>Система</sub></td>
+<td align="center" width="33%"><img src="docs/screenshot-language.png" width="280"/><br/><sub>Язык</sub></td>
 </tr>
 </table>
 </div>
@@ -79,12 +88,14 @@
 
 Нужен [.NET 10 SDK](https://dotnet.microsoft.com/download) для Windows.
 
+
 ## Горячие клавиши по умолчанию
 
 | Действие                    | Клавиша |
 |------------------------------|:-------:|
 | Показать/скрыть прицел       | `F6`    |
 | Следующий профиль             | `F7`    |
+| Предыдущий профиль            | —       |
 | Открыть окно настроек         | —       |
 | Быстрый предпросмотр          | —       |
 
